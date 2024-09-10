@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dateiumbenennung.ViewController">
+   <children>
+      <Button fx:id="chooseCSVBtn" layoutX="255.0" layoutY="79.0" mnemonicParsing="false" onAction="#onChooseCSVClick" prefHeight="57.0" prefWidth="91.0" text="Choose CSV" />
+      <Button fx:id="chooseFileBtn" layoutX="255.0" layoutY="155.0" mnemonicParsing="false" onAction="#onChooseFileClick" prefHeight="57.0" prefWidth="91.0" text="Choose Folder" />
+      <Button fx:id="executeBtn" layoutX="255.0" layoutY="232.0" mnemonicParsing="false" onAction="#onExecuteClick" prefHeight="57.0" prefWidth="91.0" text="Execute" />
+   </children>
+</AnchorPane>
